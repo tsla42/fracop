@@ -41,9 +41,7 @@ int main() {
         par=p1*a2;
       break;
       }
-      if ( ((ar>0) && (par<0)) || ((ar<0) && (par>0)) )  
-    cout << "-" << ar/par << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
-    else cout << ar/par << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
+       cout << ar/par << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
     }
   }
   return 0;
