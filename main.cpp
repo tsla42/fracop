@@ -14,7 +14,6 @@ int gcd(int a, int b) {
 int main() {
   int N, a1, p1, a2, p2, ar, par;
   char oper;
-  cout << "arithmos prakseon: " << endl;
   cin >> N;
   for (int i=0; i<N; i++) {
     cin >> oper >> a1 >> p1 >> a2 >> p2 ;
