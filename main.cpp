@@ -42,7 +42,7 @@ int main() {
       break;
       }
       if (ar/par==0 && ((ar>0 && par <0) || (ar<0 && par>0)) )
-      cout << -0 << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
+      cout << "-0" << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
       else 
       cout << ar/par << " " << (abs(ar%par))/gcd(ar,par) << " " << (abs(par))/gcd(ar,par) << endl;
     }
